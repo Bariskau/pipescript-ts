@@ -36,7 +36,7 @@ class Pipeline {
             return payload
         }
 
-        // Set StageOutput to payload as there is no output to start with
+        // Set stepOutput to payload as there is no output to start with
         let stepOutput: any = payload;
 
         // iterate the steps

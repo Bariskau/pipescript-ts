@@ -83,6 +83,12 @@ pipeline.execute(1).then(output => {
 npm run jest
 ```
 
+## TODO
+
+- Remove step from pipeline
+- Set priority for step
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
