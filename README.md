@@ -11,13 +11,13 @@ The Pipeline pattern uses ordered stages to process a sequence of input values. 
 Use the package manager npm to install typescript-pipeline.
 
 ```bash
-npm install pipeline-ts
+npm install pipescript-ts
 ```
 
 ## Usage
 
 ```typescript
-import Pipeline from "pipeline-ts"
+import Pipeline from "pipescript-ts"
 
 const plusOne = (x: number) => {
     return x + 1
@@ -50,7 +50,7 @@ pipeline.execute(1) // 4
 If the function is async, the pipeline waits for the process to complete and then moves on to the next function.
 You can use async and sync functions in the same pipeline.
 ```typescript
-import Pipeline from "pipeline-ts"
+import Pipeline from "pipescript-ts"
 
 const plusOneAsync = (x: number) => {
     return new Promise((resolve) => {
