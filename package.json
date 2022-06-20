@@ -1,13 +1,17 @@
 {
-  "name": "typescript",
+  "name": "typescript-pipeline",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Pipeline design pattern implementation for typescript with the support for sync&async",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "test": "jest"
   },
+  "files": [
+    "/dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
