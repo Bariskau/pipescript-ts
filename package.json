@@ -1,6 +1,6 @@
 {
   "name": "pipescript-ts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pipeline design pattern implementation for typescript with the support for sync&async",
   "author": "bariskau",
   "license": "MIT",
