@@ -1,5 +1,5 @@
 {
-  "name": "typescript-pipeline",
+  "name": "pipeline-ts",
   "version": "1.0.0",
   "description": "Pipeline design pattern implementation for typescript with the support for sync&async",
   "author": "bariskau",
