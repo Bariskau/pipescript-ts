@@ -1,6 +1,6 @@
 {
   "name": "pipescript-ts",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Pipeline design pattern implementation for typescript with the support for sync&async",
   "author": "bariskau",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "types": "dist/src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bariskau/TypeScript-Pipeline"
+    "url": "https://github.com/Bariskau/pipescript-ts"
   },
   "scripts": {
     "start": "ts-node src/index.ts",
