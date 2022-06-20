@@ -2,8 +2,14 @@
   "name": "typescript-pipeline",
   "version": "1.0.0",
   "description": "Pipeline design pattern implementation for typescript with the support for sync&async",
+  "author": "bariskau",
+  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bariskau/TypeScript-Pipeline"
+  },
   "scripts": {
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
@@ -13,8 +19,7 @@
     "/dist"
   ],
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "@types/node": "^18.0.0",

@@ -43,6 +43,7 @@ pipeline
 // or create pipeline using constructor
 const pipeline = new Pipeline([plusOne,multiplyTwo,minusTwo])
 
+pipeline.execute(1) // 4
 ```
 
 ## Async Usage
@@ -57,7 +58,7 @@ const plusOneAsync = (x: number) => {
     })
 }
 
-const multiplyTwoAsync = (x: number) => {
+const multiplyTwo = (x: number) => {
     return x * 2
 }
 
@@ -69,8 +70,12 @@ const pipeline = new Pipeline()
 
 pipeline
     .addStep(plusOneAsync)
-    .addStep(multiplyTwoAsync)
+    .addStep(multiplyTwo)
     .addStep(minusTwo)
+
+pipeline.execute(1).then(output => {
+    console.log(output) // 4
+})
 ```
 
 ## Testing
