@@ -30,7 +30,7 @@ class Pipeline {
      * Execute the pipeline with passed arguments
      * @param payload
      */
-    execute(payload: any): Promise<any> {
+    execute(payload: any = null): Promise<any> {
         // Return arguments if no steps
         if (this.steps.length === 0) {
             return payload
