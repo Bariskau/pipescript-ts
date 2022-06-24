@@ -1,6 +1,6 @@
 # Introduction
 
-typescript-pipeline is a typescript library for pipeline design pattern implementation.
+pipescript-ts is a typescript library for pipeline design pattern implementation.
 
 ## Explanation
 
@@ -8,7 +8,7 @@ The Pipeline pattern uses ordered stages to process a sequence of input values. 
 
 ## Installation
 
-Use the package manager npm to install typescript-pipeline.
+Use the package manager npm to install pipescript-ts.
 
 ```bash
 npm install pipescript-ts
@@ -80,7 +80,7 @@ pipeline.execute(1).then(output => {
 
 ## Testing
 ```bash
-npm run jest
+npm run test
 ```
 
 ## TODO
